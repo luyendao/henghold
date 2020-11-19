@@ -1,0 +1,16 @@
+// functions
+@function black($opacity) {
+  	@return rgba(0, 0, 0, $opacity);
+}
+
+@function white($opacity) {
+  	@return rgba(255, 255, 255, $opacity);
+}
+
+// @function em($px, $base: $base-font-size) {
+// 	@return ($px / $base) * 1em;
+// }
+
+// @function nem($px, $base) {
+// 	@return ($px / $base) * 1em;
+// }

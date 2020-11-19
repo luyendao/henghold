@@ -1,0 +1,157 @@
+/*! REMINDER/WARNING!
+*
+* 1. DO NOT EDIT THE CSS FILE: main.css 
+* 2. Only make changes .less files.
+* 3. Update the repo on github.
+* 4. Notify us of your update through Basecamp.
+*
+* Production Code Below:
+*/
+////////////////////////////////////
+// TWC Tools
+// Extends bootstrap.less 
+////////////////////////////////////
+
+// 1. Import Bootstrap
+// --------------------------------------------------
+@import 'bootstrap/bootstrap.less'; // May need to change bootstrap file path project to project
+
+// 2. Layout Tools
+// --------------------------------------------------
+// Better box model behavior (padding won't increase element size)
+// May need to be turned off for projects if additional frameworks are being used (Flat UI Pro)
+
+.border-box { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.content-box {
+	-moz-box-sizing: content-box; 
+	-webkit-box-sizing: content-box; 
+	box-sizing: content-box; 
+}
+
+// 3. Efficiency Tools
+// A few properties used often, optimized for speedy typing
+// --------------------------------------------------
+.deflate {
+	margin: 0;
+	padding: 0;
+}
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
+	border-radius: @radius;
+}
+.center-wrap {
+	position: relative;
+	text-align: center;
+}
+.center {
+	display: inline-block;
+	margin:0 auto;
+ 	float:none;
+}
+.hidden {
+	.opacity(0);
+	display: none;
+	visibility: hidden;
+}
+.placeholder(@color: #ccc) {
+	input::-webkit-input-placeholder { color: @color; }
+	input:-moz-placeholder { color: @color; }
+	textarea::-webkit-input-placeholder { color: @color; }
+	textarea:-moz-placeholder { color: @color; }
+}
+.size(@width: auto, @height: auto) {
+	width: @width;
+	height: @height;
+}
+.visible {
+	.opacity(1);
+	display: inline-block;
+	visibility: visible;
+}
+ 
+// 4. Effects Tools
+// Fancy without redundancy
+// --------------------------------------------------
+.smooth { 
+	-webkit-font-smoothing: antialiased; // Fixes Webkits faux-bold situation that makes fonts too bold
+}
+.background-cover(@bgUrl) {
+	background: url(@bgUrl) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@bgUrl', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='@bgUrl', sizingMethod='scale')";
+	// ios device fix
+	height: 100%;
+ 	overflow: hidden;
+}
+.blur(@blur) { 
+	-webkit-filter: blur(@blur);
+	-moz-filter: blur(@blur);
+	-o-filter: blur(@blur);
+	-ms-filter: blur(@blur);
+	filter: blur(@blur);
+}
+.brightness(@brightness) {
+	-webkit-filter: brightness(@brightness);
+	-moz-filter: brightness(@brightness);
+	-o-filter: brightness(@brightness);
+	-ms-filter: brightness(@brightness);
+	filter: brightness(@brightness);
+}
+.circle(@size) {
+	.show;
+	.border-radius(50%);
+	width: @size;
+	height: @size;
+}
+.grayscale(@grayscale) {
+	-webkit-filter: grayscale(@grayscale);
+	-moz-filter: grayscale(@grayscale);
+	-o-filter: grayscale(@grayscale);
+	-ms-filter: grayscale(@grayscale);
+	filter: grayscale(@grayscale);
+}
+.opacity (@opacity) {
+    @ieOpacity: @opacity * 100;
+    -ms-filter: ~"progid:DXImageTransform.Microsoft.Alpha(Opacity=@{ieOpacity})"; // IE 8
+    filter: ~"alpha(opacity=@{ieOpacity})"; // IE 5-7
+    opacity: @opacity;
+}
+.saturate(@saturate) {
+	-webkit-filter: saturate(@saturate);
+	-moz-filter: saturate(@saturate);
+	-o-filter: saturate(@saturate);
+	-ms-filter: saturate(@saturate);
+	filter: saturate(@saturate);
+}
+.transition ( @property, @duration, @style: ease-in-out ) {
+  -webkit-transition-property: @property;  
+  -webkit-transition-duration: @duration;
+  -webkit-transition-timing-function: @style;
+ 
+  -moz-transition-property: @property;  
+  -moz-transition-duration: @duration;
+  -moz-transition-timing-function: @style;
+
+  -ms-transition-property: @property;  
+  -ms-transition-duration: @duration;
+  -ms-transition-timing-function: @style;
+
+  -o-transition-property: @property;  
+  -o-transition-duration: @duration;
+  -o-transition-timing-function: @style;
+
+  transition-property: @property;  
+  transition-duration: @duration;
+  transition-timing-function: @style;
+}

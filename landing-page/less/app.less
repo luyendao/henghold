@@ -1,0 +1,128 @@
+@import "twc-tools.less";
+
+// @font: "franklin-gothic-urw"; // Typekit ... didn't work locally, used embedded fonts below...
+
+@font-face {
+	font-family: 'itcfranklingothicstd-book';
+	src: url('../fonts/itcfranklingothicstd-book.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/itcfranklingothicstd-book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/itcfranklingothicstd-book.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/itcfranklingothicstd-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/itcfranklingothicstd-book.svg#itcfranklingothicstd-book') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'itcfranklingothicstd-demi';
+	src: url('../fonts/itcfranklingothicstd-demi.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/itcfranklingothicstd-demi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/itcfranklingothicstd-demi.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/itcfranklingothicstd-demi.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/itcfranklingothicstd-demi.svg#itcfranklingothicstd-demi') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'itcfranklingothicstd-med';
+	src: url('../fonts/itcfranklingothicstd-med.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/itcfranklingothicstd-med.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/itcfranklingothicstd-med.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/itcfranklingothicstd-med.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/itcfranklingothicstd-med.svg#itcfranklingothicstd-med') format('svg'); /* Legacy iOS */
+}
+
+@font-book: 'itcfranklingothicstd-book';
+@font-med: 'itcfranklingothicstd-med';
+@font-demi: 'itcfranklingothicstd-demi';
+
+@color1: #67707a;
+
+* {
+	.border-box;
+	.smooth;
+}
+html, body, header {
+	background-color: @color1;
+}
+body {
+	color: #fff;
+	font-family: @font-book;
+	font-weight: 300;
+}
+.container-fluid {
+	width: 960px;
+	margin: 0 auto;
+}
+header {
+	.row1 {
+		text-align: center;
+	}
+	.row-2 {
+		padding: 100px 0;
+	}
+}
+.logo {
+	display: block;
+	margin: 40px auto 0;
+}
+h1 {
+	font-family: @font-med;
+	font-weight: 400;
+	font-size: 27px;
+	text-transform: uppercase;
+	margin-top: -6px; 
+	line-height: 38px;
+}
+p {
+	font-size: 18px;
+	line-height: 150%;
+}
+h4 {
+	font-family: @font-med;
+	font-size: 18px;
+	line-height: 150%;
+}
+.video-wrap {
+	padding-right: 15px;
+}
+.video-placeholder {
+	cursor: pointer;
+
+}
+.message {
+	padding-left: 15px;
+}
+section.row-1 {
+	background-color: #fff;	
+	color: @color1;
+	padding: 80px 0;
+}
+h2 {
+	font-size: 27px;
+	font-family: @font-book;
+	.smooth;
+}
+li {
+	font-family: @font-demi;
+	font-size: 20px;
+	line-height: 200%;
+}
+section.row-2 {
+	background-color: rgb(238, 238, 238);	
+	color: @color1;
+	padding: 60px 0;
+}
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+footer {
+	background-color: rgb(58, 64, 70);	
+	color: #b1c0d7;
+	text-align: center;
+	padding: 25px 0 15px;
+
+	p {
+	font-family: @font-med;
+		font-size: 14px;
+	}
+}
+

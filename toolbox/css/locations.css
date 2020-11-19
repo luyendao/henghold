@@ -1,0 +1,278 @@
+@font-face { font-family: 'AllerBold'; src: url("../../fonts/aller-bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/aller-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/aller-bold.woff") format("woff"), url("../../fonts/aller-bold.ttf") format("truetype"), url("../../fonts/aller-bold.svg#AllerBold") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'AllerBoldItalic'; src: url("../../fonts/aller-bold-italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/aller-bold-italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/aller-bold-italic.woff") format("woff"), url("../../fonts/aller-bold-italic.ttf") format("truetype"), url("../../fonts/aller-bold-italic.svg#AllerBoldItalic") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'AllerItalic'; src: url("../../fonts/aller-italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/aller-italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/aller-italic.woff") format("woff"), url("../../fonts/aller-italic.ttf") format("truetype"), url("../../fonts/aller-italic.svg#AllerItalic") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'AllerRegular'; src: url("../../onts/aller-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/aller-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/aller-regular.woff") format("woff"), url("../../fonts/aller-regular.ttf") format("truetype"), url("../../fonts/aller-regular.svg#AllerRegular") format("svg");
+  /* Legacy iOS */
+  font-weight: 400; }
+
+@font-face { font-family: 'ChaparralProBoldItalic'; src: url("../../fonts/chaparralpro-boldit.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/chaparralpro-boldit.eot?#iefix") format("embedded-opentype"), url("../../fonts/chaparralpro-boldit.woff") format("woff"), url("../../fonts/chaparralpro-boldit.ttf") format("truetype"), url("../../fonts/chaparralpro-boldit.svg#ChaparralProBoldItalic") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'ChaparralProBold'; src: url("../../fonts/chaparralpro-bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/chaparralpro-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/chaparralpro-bold.woff") format("woff"), url("../../fonts/chaparralpro-bold.ttf") format("truetype"), url("../../fonts/chaparralpro-bold.svg#ChaparralProBold") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'ChaparralProItalic'; src: url("../../fonts/chaparralpro-italic.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/chaparralpro-italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/chaparralpro-italic.woff") format("woff"), url("../../fonts/chaparralpro-italic.ttf") format("truetype"), url("../../fonts/chaparralpro-italic.svg#ChaparralProItalic") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'ChaparralProRegular'; src: url("../../fonts/chaparralpro-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/chaparralpro-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/chaparralpro-regular.woff") format("woff"), url("../../fonts/chaparralpro-regular.ttf") format("truetype"), url("../../fonts/chaparralpro-regular.svg#ChaparralProRegular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'KarminaReg'; src: url("../../fonts/KarminaReg.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/KarminaReg.eot?#iefix") format("embedded-opentype"), url("../../fonts/KarminaReg.woff") format("woff"), url("../../fonts/KarminaReg.ttf") format("truetype"), url("../../fonts/KarminaReg.svg#KarminaReg") format("svg");
+  /* Legacy iOS */ }
+
+@font-face { font-family: 'KarminaItalic'; src: url("../../fonts/KarminaItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../../fonts/KarminaItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/KarminaItalic.woff") format("woff"), url("../../fonts/KarminaItalic.ttf") format("truetype"), url("../../fonts/KarminaItalic.svg#KarminaItalic") format("svg");
+  /* Legacy iOS */ }
+
+
+.slides div.undo {color:#E53D00; margin-bottom:20px;padding:20px;border:1px solid #E53D00;background-color:#FFADAE;text-align:center;}
+
+.slide-title {margin-bottom:20px; overflow:hidden;}
+.slide-title {margin-bottom:20px; overflow:hidden;}
+
+.slide-top-options{margin-bottom:20px;}
+.slide-bottom-options{margin-top:20px;}
+
+.slide {  font-family:"AllerRegular", sans-serif; }
+
+.slide textarea{
+  border: 0 none white;
+  margin:0;
+  padding:0;
+    overflow: hidden;
+    padding: 0;
+    min-height:1px !important;
+    height:1px;
+    width:100%;
+  outline: none;
+    background-color:transparent;
+    resize: none;
+    color:inherit;
+    font-size:inherit;
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit;
+    line-height: inherit;
+    padding-top: 1px;
+}
+
+.slide textarea:hover,.slide textarea:focus,.slide .slide-photo img:hover{
+  box-shadow: 0 0 10px rgba(255,255,255,.25), 0 0 50px rgba(0,0,0,.25);
+}
+
+.slides.sorting .item{
+  position:relative;
+  overflow:hidden;
+}
+
+.slides.sorting .item .slide-wrapper{
+  display:none;
+}
+
+.slides.sorting .item .actions{
+  float:right;
+}
+
+.item{
+  margin-bottom:5px;
+  border:1px solid #ccc;
+  padding:10px;
+  background:#efefef;
+  border-radius:5px;
+}
+
+.item > h2{
+  margin:0px !important;
+  padding:10px !important;
+}
+
+.slides.sorting .item > h2{
+  padding-left:40px !important;
+  background:transparent url('../img/icon_move.png') 5px center no-repeat;
+  cursor: ns-resize;
+  float:left;
+}
+
+.slide-wrapper{
+  border:1px solid #ccc;
+}
+
+.item .actions{
+	overflow: hidden;
+	text-align: right;
+	padding-right: 15px;
+	padding-top:10px;
+}
+
+.slide-wrapper{
+  background:#004F71;
+  width:100%;
+  overflow:hidden;
+  overflow-x:auto;
+}
+
+.slide{
+	display:block;
+	height:300px;
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	padding:20px 0;
+}
+
+.item.hidden{
+  display:block;
+  visibility:visible;
+}
+
+.item.hidden .slide-wrapper{
+  opacity:.60;
+}
+
+.slide .btn-wrapper{
+	position:relative;
+}
+
+.slide .editlink{
+	position:absolute;
+	background:#fff;
+	padding:3px;
+	left:125px;
+	top:-8px;
+	text-align:right;
+}
+
+.slide .editlink .editlink-pad{
+	overflow:hidden;
+	white-space: nowrap;
+}
+
+.slide .editlink:after{
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #ffffff;
+	border-width: 17px;
+	top: 50%;
+	margin-top: -17px;
+}
+
+.slide .btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  margin-bottom: 0;
+  font-size: 20px;
+  line-height: 20px;
+  *line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.slide .btn-wrapper {
+	margin:10px 0 20px 0;
+	float:left;
+}
+
+.slide .slide-info {
+  float: right;
+  width: 440px;
+}
+.slide .slide-info h1,
+.slide .slide-info p {
+  color: white;
+}
+.slide .slide-info h1{
+	font: normal 2em "KarminaReg", sans-serif;
+	margin:0 0 10px 0;
+}
+.slide .slide-info p {
+	font: normal normal 1.125em/150% "myriad-pro", sans-serif;
+}
+.slide .slide-info p textarea{
+	font: normal normal 1.3em/150% "myriad-pro", sans-serif;
+}
+.slide .slide-info p.number{
+	margin:0 0 -3px 0;
+	clear:left;
+}
+.slide .slide-info p.number span{
+	float:left;
+	font: 700 normal 1.4em/150% "myriad-pro", sans-serif;
+	margin:0 4px 0 0;
+}
+.slide .slide-info p.number textarea{
+	text-decoration:underline;
+	float:left;
+	clear:none;
+	width:190px;	
+}
+.slide .slide-info span.btn {
+	font: 1.26em "Myriad Pro", sans-serif;
+	color: #fff !important;
+	position: relative;
+	text-shadow: none;
+	color: #FFF;
+}
+.slide .slide-info span.btn textarea{
+	text-decoration:underline;	
+}
+.slide .slide-info .btn span {
+}
+.slide .slide-info .btn span:last-child {
+  float: left;
+}
+.slide .slide-info .btn span:first-child {
+  float: left;
+  margin: 0;
+  display: block;
+  margin:-4px 10px 0 0;
+  font: 1em "myriad-pro", sans-serif;
+}
+.slide .slide-info .btn:hover {
+outline: 0; 
+color: #FFF; 
+}
+.slide .slide-photo {
+  float: left;
+  width: 460px;
+  margin: 0 30px 0 0;
+}
+.slide .slide-photo img {vertical-align: bottom;cursor:pointer;}

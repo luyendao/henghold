@@ -1,0 +1,15 @@
+#PartnerLogos .image.logo{
+	position:relative;
+	text-align:center;
+	padding-top:20px;
+}
+
+#PartnerLogos .image.logo img{
+	vertical-align: bottom;
+	cursor:pointer;
+}
+
+#PartnerLogos .image.logo img:hover{
+	box-shadow: 0 0 10px rgba(255,255,255,.25), 0 0 50px rgba(0,0,0,.25);
+}
+

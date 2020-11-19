@@ -1,0 +1,329 @@
+.postbox .inside{}
+
+/* make tiny mce buttons wrp */
+.postbox .inside .mceToolbar td {
+	display:block;
+	float:left;
+}
+
+.mceToolbar * {
+	white-space: normal !important;
+}
+
+/*Floats*/
+.postbox .inside .left{
+	float:left;
+}
+
+.postbox .inside .right{
+	float:right;
+}
+
+/*Quarters*/
+.postbox .inside .whole{
+	width:100%;
+	box-sizing:border-box;
+	display:block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .three-quarter{
+	width:75%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .half{
+	width:50%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .one-quarter{
+	width:25%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+
+/*Thirds*/
+.postbox .inside .one-third{
+	width:33.3%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+
+.postbox .inside .two-third{
+	width:66.6%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+
+.postbox .inside .selfclear{overflow:hidden;}
+
+
+/*Fifths*/
+.postbox .inside .one-fifth{
+	width:20%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .two-fifth{
+	width:40%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .three-fifth{
+	width:60%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+.postbox .inside .four-fifth{
+	width:80%;
+	box-sizing:border-box;
+	display:inline-block;
+	margin-left:0;
+	margin-right:0;
+}
+
+/* for tables */
+.postbox .inside table.whole, 
+.postbox .inside table.three-quarter, 
+.postbox .inside table.half, 
+.postbox .inside table.one-quarter, 
+.postbox .inside table.one-third, 
+.postbox .inside table.two-third, 
+.postbox .inside table.one-fifth, 
+.postbox .inside table.two-fifth, 
+.postbox .inside table.three-fifth,
+.postbox .inside table.four-fifth{
+	display:table;
+}
+
+.postbox .inside td.whole, 
+.postbox .inside td.three-quarter, 
+.postbox .inside td.half, 
+.postbox .inside td.one-quarter, 
+.postbox .inside td.one-third, 
+.postbox .inside td.two-third, 
+.postbox .inside td.one-fifth, 
+.postbox .inside td.two-fifth, 
+.postbox .inside td.three-fifth,
+.postbox .inside td.four-fifth,
+.postbox .inside th.whole, 
+.postbox .inside th.three-quarter, 
+.postbox .inside th.half, 
+.postbox .inside th.one-quarter, 
+.postbox .inside th.one-third, 
+.postbox .inside th.two-third, 
+.postbox .inside th.one-fifth, 
+.postbox .inside th.two-fifth, 
+.postbox .inside th.three-fifth,
+.postbox .inside th.four-fifth{
+	display:table-cell;
+}
+
+.postbox .inside tr.whole, 
+.postbox .inside tr.three-quarter, 
+.postbox .inside tr.half, 
+.postbox .inside tr.one-quarter, 
+.postbox .inside tr.one-third, 
+.postbox .inside tr.two-third, 
+.postbox .inside tr.one-fifth, 
+.postbox .inside tr.two-fifth, 
+.postbox .inside tr.three-fifth,
+.postbox .inside tr.four-fifth{
+	display:table-row;
+}
+
+.postbox .inside tbody.whole, 
+.postbox .inside tbody.three-quarter, 
+.postbox .inside tbody.half, 
+.postbox .inside tbody.one-quarter, 
+.postbox .inside tbody.one-third, 
+.postbox .inside tbody.two-third, 
+.postbox .inside tbody.one-fifth, 
+.postbox .inside tbody.two-fifth, 
+.postbox .inside tbody.three-fifth,
+.postbox .inside tbody.four-fifth,
+.postbox .inside thead.whole, 
+.postbox .inside thead.three-quarter, 
+.postbox .inside thead.half, 
+.postbox .inside thead.one-quarter, 
+.postbox .inside thead.one-third, 
+.postbox .inside thead.two-third, 
+.postbox .inside thead.one-fifth, 
+.postbox .inside thead.two-fifth, 
+.postbox .inside thead.three-fifth,
+.postbox .inside thead.four-fifth,
+.postbox .inside tfoot.whole, 
+.postbox .inside tfoot.three-quarter, 
+.postbox .inside tfoot.half, 
+.postbox .inside tfoot.one-quarter, 
+.postbox .inside tfoot.one-third, 
+.postbox .inside tfoot.two-third, 
+.postbox .inside tfoot.one-fifth, 
+.postbox .inside tfoot.two-fifth, 
+.postbox .inside tfoot.three-fifth,
+.postbox .inside tfoot.four-fifth{
+	display:table-row-group;
+}
+
+
+
+/* formatting*/
+.postbox .inside .clear{
+	clear:both;
+}
+
+.postbox .inside .clearfix{
+	overflow:hidden;
+}
+
+.postbox .inside .text-center{
+	text-align:center;
+}
+
+.postbox .inside .text-left{
+	text-align:left;
+}
+
+.postbox .inside .text-right{
+	text-align:right;
+}
+
+.postbox .inside .text-justified{
+	text-align:justify;
+	text-justify:inter-word;
+	
+}
+
+/*Padding*/
+.postbox .inside .pad{
+	padding:3px;
+}
+
+
+/*Buttons*/
+.button {box-sizing:border-box;}
+.button.blue { 
+	color:#2d477f;
+	background:#9ebcff;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #2d477f;
+}
+.button.green{
+	color:#467c00;
+	background:#b7d88c;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #467c00;
+}
+
+.button.red{
+	color:#e53d00;
+	background:#ffadae;
+	font-weight:bold;
+	cursor:pointer;
+	border:1px solid #e53d00;
+}
+
+
+
+/*Fields*/
+.postbox .inside textarea{
+	min-height:125px;
+}
+
+/*Paragraph*/
+.postbox .inside .align-right{
+	text-align:right;
+}
+
+
+/*counter*/
+.postbox .inside .counter{
+	font-size:14px;
+	font-weight:600;
+}
+.postbox .inside .counter.warning{
+	color:#F90;
+}
+
+.postbox .inside .counter.exceeded{
+	color:#F00;
+}
+
+/*Custom Plupload*/
+.plupload-thumbs.single{
+	width:auto;
+	padding:0;
+	background-color: transparent;
+}
+
+.plupload-thumbs.single .thumb{
+	width:auto;
+	float:none;
+	margin:10px 10px;
+}
+
+.plupload-thumbs .thumbi{
+	text-align:center;
+}
+
+.plupload-thumbs.single .thumb img{
+	width:100%;
+	height:auto;
+	margin:10px auto;
+}
+
+/* instructional */
+.postbox .inside .info{
+	color:#AAA;
+	font-size:11px;
+	display:inline-block;
+	padding:3px;
+	border:1px dotted #D8D2A9;
+	background:#FFC;
+}
+
+.postbox .inside .info .req{
+	color:#AC5D5D;
+	font-weight:bold;
+}
+
+
+.browse{cursor:pointer;}
+.browse:hover{box-shadow: 0 0 10px rgba(255,255,255,.25), 0 0 50px rgba(0,0,0,.25);}
+
+
+/*simplate*/
+.template-render{
+	padding: 10px;
+	background: white;
+	border: 1px solid #DFDFDF;
+	height: 350px;
+	overflow-y: auto;
+}
+
+/* Table Rules */
+table.alternate tr:nth-child(even) td{
+	background-color:#DDD;
+}
+
+/*Sorting*/
+.drag {background:url('../img/icon_move.png') no-repeat center; cursor:n-resize;}

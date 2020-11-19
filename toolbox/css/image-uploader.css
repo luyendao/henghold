@@ -1,0 +1,10 @@
+.image-uploader-container{
+	background:#CCC;
+	text-align:center;
+	padding:10px;
+	overflow:hidden;
+}
+
+.image-uploader-container img{
+	cursor:pointer;
+}
