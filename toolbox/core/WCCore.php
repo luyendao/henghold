@@ -41,7 +41,7 @@ class WCCore{
 
 		$this->set_core();
 
-		$this->add_script('wpfiles','toolbox/js/jquery.wpfiles.js',array('jquery'), false);
+		$this->add_script('wpfiles','toolbox/js/jquery.wpfiles.js?121233',array('jquery'), false);
 		$this->add_style('WC_Admin_Style','toolbox/css/admin.css');
 
 		if(method_exists($this,'setup_admin'))$this->setup_admin();

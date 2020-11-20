@@ -9,6 +9,11 @@
                 <div class="heading container-fluid">
                     <h1><?=the_title()?></h1>
                 </div>
+
+<?php
+the_content(); 
+?>
+       
 				<?php if(!post_password_required(get_the_ID())): ?>
 		            <?php if($media->slideshow == 'on'): ?>
 					    <!-- carousel -->

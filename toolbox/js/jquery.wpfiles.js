@@ -6,8 +6,19 @@
 */
 
 (function($){
+
+jQuery.fn.extend({
+    live: function (event, callback) {
+       if (this.selector) {
+            jQuery(document).on(event, this.selector, callback);
+        }
+        return this;
+    }
+});
+
+
 	$.fn.wpfiles = function(callback){
-		this.live('click',function(e) {
+                this.live('click',function(e) {
 			e.preventDefault();
 
 			var send_attachment_bkp = wp.media.editor.send.attachment;

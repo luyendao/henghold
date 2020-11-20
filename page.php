@@ -4,7 +4,9 @@
                 <div class="heading container-fluid">
                     <h1><?=the_title()?></h1>
                 </div>
-				<?php if(!post_password_required(get_the_ID())): ?>
+                
+
+                                <?php if(!post_password_required(get_the_ID())): ?>
 		            <?php if($media->slideshow == 'on'): ?>
 					    <!-- carousel -->
 					    <div class="carousel-wrap default-page">
