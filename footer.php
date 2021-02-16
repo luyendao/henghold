@@ -28,7 +28,7 @@
                         <div class="col">
                             <h4>Connect</h4>
                             <ul>
-                                <li><a href=" https://www.facebook.com/henghold" class="fb">Facebook</a></li>
+                                <li><a href="https://www.facebook.com/Hengholddermatology/" class="fb">Facebook</a></li>
                                 <!-- <li><a href="#" class="in">Linkedin</a></li> -->
                                 <li><a href="https://www.youtube.com/channel/UC_tbRCp1RYqst9hC41_FDtA" class="yt">Youtube</a></li>
                             </ul>
@@ -43,7 +43,6 @@
                         </div>
                         <div class="col">
                             <a href="/" class="logo">Henghold</a>
-                            <a href="http://henghold.idgroup.bz/employee-portal/" class="emp-login">Employee Login<span></span></a>
                         </div>
                     </div>
                 </div>

@@ -39,27 +39,7 @@ $menu = wc_get_section_menu();
 			
                             <?php the_content(); ?>
 				
-						
-	                        <ul class="share-btn">
-	                            <li>
-	                                <a href="#">+ Share</a>
-	
-	                                <div class="share-links-wrapper">
-	                                    <ul class="share-links">
-	                                        <li><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?=WCCore::get_current_url()?>" class="fb"><span></span>Facebook</a></li>
-	                                        <li><a target="_blank" href="http://www.twitter.com/share?url=<?=WCCore::get_current_url()?>" class="tw"><span></span>Twitter</a></li>
-	                                        <li><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=<?=WCCore::get_current_url()?>" class="in"><span></span>Linkedin</a></li>
-	                                        <li>
-	                                        	<a href="mailto:?body=<?=WCCore::get_current_url()?>" class="mail">
-		                                        	<span></span>
-		                                        	Email
-		                                        </a>
-		                                    </li>
-	                                    </ul>
-	                                </div>
-	                            </li>
-	                        </ul>
-	                    </div>
+                   </div>
                 </div>
             </div><!-- /main container -->
 

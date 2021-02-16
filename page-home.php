@@ -100,6 +100,8 @@ get_header(); ?>
                 <a <?=($bottom->four->link->target)?' target="_blank"':null?> href="<?=$bottom->four->link->url?>" class="see-more-btn"><?=$bottom->four->link->text?><span></span></a>
             </div>
         </div>-->
+		
+		<?php the_content();?>
     </div><!-- /main container -->
     
 <?=get_footer()?>

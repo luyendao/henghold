@@ -5,11 +5,6 @@
 ?>
 <?php extract((array)$META); ?>
 <?=get_header()?>
-  			<div class="heading-wrap">
-                <div class="heading container-fluid">
-                    <h1><?=the_title()?></h1>
-                </div>
-
 <?php
 the_content(); 
 ?>
@@ -125,9 +120,8 @@ the_content();
 	                        
 	                    </div>
                     <?php else: ?>
-                    	<?php the_content(); ?>
+                    	
                    	<?php endif; ?>
-                </div>
             </div><!-- /main container -->
 
 <?=get_footer()?>
